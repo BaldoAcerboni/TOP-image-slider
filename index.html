@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Slider</h1>
+      <div class="img-and-arrows">
+        <div class="arr-left" id="arr-left">
+          <img src="./images/arrow_left.svg" alt="left arrow" />
+        </div>
+        <div class="img" id="img-container">
+          <div class="img-slider" id="img-slider">
+            <img src="./images/apk_install.svg" alt="install app image" />
+            <img src="./images/battery_change.svg" alt="battery change image" />
+            <img
+              src="./images/battery_charging.svg"
+              alt="battery charge in progress image"
+            />
+            <img
+              src="./images/h_mobiledata_badge.svg"
+              alt="mobile data h image"
+            />
+          </div>
+        </div>
+        <div class="arr-right" id="arr-right">
+          <img src="./images/arrow_right.svg" alt="right arrow" />
+        </div>
+      </div>
+      <div class="slider-pos" id="slider-pos">
+        <div class="slider-pos-index active"></div>
+        <div class="slider-pos-index"></div>
+        <div class="slider-pos-index"></div>
+        <div class="slider-pos-index"></div>
+      </div>
+    </div>
+  </body>
+</html>
